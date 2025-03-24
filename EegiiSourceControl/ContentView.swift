@@ -18,7 +18,7 @@ struct ContentView: View {
             Button("Click me!"){
                 
             }
-            .background(Color.red)
+            .background(Color.green)
 
            
         }
