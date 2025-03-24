@@ -15,6 +15,9 @@ struct ContentView: View {
                 .font(.largeTitle)
                 .foregroundStyle(.tint)
             Text("Egii's source control")
+            Button("Click me!"){
+                
+            }
         }
         .padding()
     }
