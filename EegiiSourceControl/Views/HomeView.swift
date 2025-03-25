@@ -42,7 +42,16 @@ struct HomeView: View {
             Image(systemName: "heart.fill")
                 .foregroundStyle(Color.red)
                 .font(.largeTitle)
+            Button("Additional"){
+                
+            }
+            .frame(maxWidth: .infinity)
+            .padding()
+            .background(Color.blue)
+            .foregroundStyle(.white)
+            .cornerRadius(10)
         }
+        .padding()
     }
 }
 
