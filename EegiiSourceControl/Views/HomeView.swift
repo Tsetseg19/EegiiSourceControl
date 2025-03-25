@@ -6,6 +6,13 @@
 //
 
 /*
+ 
+ clone = copying the repo locally
+ Commit = Save ("checkpoint") on out current branch
+ Stage = Prepare changes for a commit
+ Stash = Save changes for later
+ 
+ 
  COMMIT MESSAGES
  NEW FEATURE:
  [FEATURE] Description of the freature
