@@ -28,8 +28,12 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text("Home View!")
-        
+        VStack(spacing: 20){
+            Text("Home View!")
+            Image(systemName: "heart.fill")
+                .foregroundStyle(Color.red)
+                .font(.largeTitle)
+        }
     }
 }
 
