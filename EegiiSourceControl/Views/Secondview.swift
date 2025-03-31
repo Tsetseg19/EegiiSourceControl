@@ -1,6 +1,3 @@
-
-
-
 import SwiftUI
 
 struct SecondView {
@@ -10,6 +7,7 @@ struct SecondView {
         HStack{
             
             Text("Second View")
+            
             Button("Click me"){
                 
             }
